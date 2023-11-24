@@ -29,5 +29,5 @@ jobs:
         goarch: ${{ matrix.goarch }}
         goversion: "1.21.4"
         compress_assets: "OFF"
-        build_flags: "-ldflags='-s -w'"
+        build_flags: '-ldflags="-s -w"'
         executable_compression: "upx"
