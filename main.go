@@ -11,7 +11,7 @@ import (
 
 func main() {
 	if len(os.Args) != 2 {
-		fmt.Println("Usage: go run script.go <password>")
+		fmt.Printf("Usage: %s <password>\n", os.Args[0]) // Changed line
 		os.Exit(1)
 	}
 
